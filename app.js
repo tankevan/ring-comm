@@ -39,4 +39,5 @@ app.post("/charge", (req, res) => {
   .then(charge => res.render("charge.pug"));
 });
 
-app.listen(4567);
+const PORT = process.env.PORT || 4567;
+app.listen(PORT);
