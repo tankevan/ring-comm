@@ -2,16 +2,15 @@
   "name": "ring-comm",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
-    "bootstrap": "^3.3.7",
     "express": "^4.15.4",
     "pug": "^2.0.0-rc.4",
     "stripe": "^4.25.0",
